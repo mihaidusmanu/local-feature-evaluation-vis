@@ -11,7 +11,7 @@ def parse_args():
     parser.add_argument("--dataset_path", required = True,
                         help = "Path to the dataset, e.g. path/to/Fountain")
     parser.add_argument("--methods", required = True,
-                        help = "Methods, e.g. \"sift sift lift\"")
+                        help = "Methods, e.g. \"sift lift\"")
     args = parser.parse_args()
     return args
 
