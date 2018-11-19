@@ -18,7 +18,7 @@ def parse_args():
 def get_largest_sparse_model(sparse_path):
     models = os.listdir(sparse_path)
     if len(models) == 0:
-        print("Warning: Could not reconstruct any model")
+        print("Warning: No model reconstructed.")
         return
 
     largest_model = None
